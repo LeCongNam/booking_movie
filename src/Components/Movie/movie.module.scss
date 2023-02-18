@@ -1,0 +1,28 @@
+$height: 485px;
+
+.wrapper {
+	border: 1px solid #ccc;
+	height: $height;
+	max-height: $height;
+	min-height: $height;
+}
+
+.cinemaCluster {
+	max-height: $height;
+	overflow-y: scroll;
+}
+
+.cinemaPlaceItem {
+	border-bottom: 1px solid #ccc;
+
+	&:hover {
+		background-color: #e2e0e0;
+		color: #ec7532;
+	}
+}
+
+.cinemaLogo {
+	&:hover {
+		transform: scale(1.2);
+	}
+}

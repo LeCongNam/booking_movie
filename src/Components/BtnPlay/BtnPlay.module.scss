@@ -1,0 +1,35 @@
+.BtnPlay {
+	width: 80px;
+	height: 80px;
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	bottom: 50%;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	margin-left: -32px;
+	cursor: pointer;
+	border: 2px solid #ec7532;
+	border-radius: 50%;
+
+	&:hover {
+		border: transparent;
+		background-color: #ec7532;
+		border: 2px solid #fff;
+		opacity: 0.9;
+	}
+
+	&:hover svg {
+		color: #fff;
+		opacity: 0.9;
+	}
+}
+
+.iconPlay {
+	color: #ec7532;
+	font-size: 50px;
+	margin-left: 10px;
+}

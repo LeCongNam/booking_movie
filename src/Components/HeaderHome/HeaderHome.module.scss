@@ -1,0 +1,26 @@
+.HeaderHome {
+	position: sticky;
+	height: 78px;
+	z-index: 999;
+	width: 100%;
+	background-color: whitesmoke;
+
+	& .logo {
+		height: 80px;
+		transition: all 0.5s;
+
+		&.scaleLogo {
+			height: 56px;
+		}
+	}
+}
+
+.itemNav {
+	font-size: 15px;
+}
+
+.itemNav:hover {
+	color: #ec7532 !important;
+	border-bottom: 3px solid;
+	border-bottom-color: linear-gradient(to right, #fbbd61, #ec7532);
+}

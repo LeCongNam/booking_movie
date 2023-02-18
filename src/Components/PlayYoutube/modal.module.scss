@@ -1,0 +1,45 @@
+.modalForYoutube {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.closeVideo {
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+
+	&:hover {
+		animation: xoay linear 0.5s;
+	}
+
+	& svg {
+		font-size: 50px;
+	}
+}
+
+.video {
+	width: 914px;
+	height: 514px;
+	max-width: 100vw;
+}
+
+@keyframes xoay {
+	from {
+		rotate: z 0deg;
+	}
+	to {
+		rotate: z 180deg;
+	}
+}

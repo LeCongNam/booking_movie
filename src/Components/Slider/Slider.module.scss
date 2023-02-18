@@ -1,0 +1,54 @@
+.slider {
+	position: relative;
+}
+
+.playTrailer {
+	position: relative;
+}
+
+.playTrailer:hover .btnPlay {
+	visibility: visible;
+}
+
+.btnPlay {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	right: 50%;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -50px;
+	margin-left: -50px;
+	cursor: pointer;
+	z-index: 10;
+	visibility: hidden;
+
+	& svg {
+		font-size: 50px;
+		color: #fff;
+	}
+}
+
+.isPlay {
+	visibility: visible;
+}
+
+.btnPlay:hover {
+	width: 100px;
+	height: 100px;
+	transition: all 0.3s linear;
+	border-color: #ec7532;
+
+	& svg {
+		color: #ec7532;
+	}
+}
+
+.bannerImg {
+	width: 100%;
+}
